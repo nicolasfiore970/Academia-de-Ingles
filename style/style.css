@@ -38,7 +38,7 @@ li a:hover {
 }
 
 footer {
-  /* position: fixed; */
+  
   left: 0;
   bottom: 0;
   width: 100%;
@@ -111,11 +111,14 @@ table th {
   padding-left: 20px;
   margin: 10px;
   margin-top: 10px;
+
 }
+
 .Tienda-Online img {
   width: 200px;
   height: 200px;
 }
+
 .Certificado-Cambridge {
   width: 200px;
   background-color: rgb(247, 233, 233);
