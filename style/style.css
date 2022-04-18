@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(230, 173, 221);
+  height: 70px;
+}
+
+nav li {
+  display: inline;
+  float: right;
+  padding-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(231, 191, 215);
+  border-radius: 60%;
+}
+
+.slideshow-container {
+  max-width: 100vh;
+  position: center;
+}
+
+footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(230, 173, 221);
+  color: white;
+  text-align: center;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+.grid img {
+  width: 200px;
+  height: 300px;
+  display: grid;
+}
+
+.Cursos-Ingles img {
+  width: 300px;
+  height: 400px;
+}
+
+.Cursos-Ingles {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.tarjetas {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.tarjetas:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.container-navbar img {
+  padding-left: 20px;
+  margin: 10px;
+  margin-top: 10px;
+}
+.Tienda-Online img {
+  width: 200px;
+  height: 200px;
+}
+.Certificado-Cambridge {
+  width: 200px;
+  background-color: rgb(247, 233, 233);
+  width: 60%;
+  margin: 1.6em auto;
+
+  display: flex;
+  grid-template-columns: 70%;
+  grid-template-rows: auto 400px;
+  gap: 1em;
+
+  justify-content: center;
+}
+
+.Certificado-Cambridge img {
+  width: 400px;
+  height: 300px;
+  display: grid;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.directivos {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+
+  padding: 15px;
+	text-align: center;
+}
+
+.directivos:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.grid .directivos .contenido {
+	padding: 15px;
+	text-align: center;
+}
+
+.grid div {
+  background-color: rgb(247, 233, 233);
+  padding: 1em;
+}
+
+.tabla {
+  border: 1px solid black;
+  margin-top: 50px;
+}
