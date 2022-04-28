@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nicolasfiore970/Academia-de-Ingles.git"
   },
-  "author": "",
+  "author": "Nicolas-Fiore",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/nicolasfiore970/Academia-de-Ingles.git"
   },
-  "homepage": "",
+  "homepage": "https://nicolasfiore970.github.io/Academia-de-Ingles/",
   "description": "",
   "devDependencies": {
     "node-sass": "^7.0.1",
