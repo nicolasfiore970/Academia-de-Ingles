@@ -33,9 +33,9 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  text-align: center;
   background-color: #e6addd;
-  color: white;
-  text-align: center; }
+  color: white; }
 
 table {
   font-family: Arial, Helvetica, sans-serif;
